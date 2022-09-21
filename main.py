@@ -16,7 +16,7 @@ class Node:
 class LinkedList:
     def __init__(self, head=None):
        self.head = head
-       self.tail = None
+       
 
     def print_linked_list(self):
         if self.head is None:
